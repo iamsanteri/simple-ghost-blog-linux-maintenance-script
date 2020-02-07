@@ -19,3 +19,4 @@ echo "The automatic script has finished. Server maintenance complete."
 sudo sleep 1s
 echo "Rebooting the box. Bye!"
 sudo sleep 3s
+sudo reboot
