@@ -10,7 +10,7 @@ echo "NPM updated successfully. Heading over to Ghost..."
 cd ../../../var/www/ghost
 echo "Navigated successfully to Ghost directory"
 sudo cp ./content ./../content-backup -r
-sudo mv ./content ./content-latest
+sudo mv ./../content-backup/content ./../content-backup/content-latest
 echo "Successfully created a Ghost backup directory into ../content-backup"
 sudo npm install -g ghost-cli@latest
 echo "Installed latest Ghost-cli version"
