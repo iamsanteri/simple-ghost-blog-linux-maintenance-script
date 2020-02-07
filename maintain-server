@@ -9,14 +9,11 @@ sudo npm install -g npm
 echo "NPM updated successfully. Heading over to Ghost..."
 cd ../../../var/www/ghost
 echo "Navigated successfully to Ghost directory"
-sudo cp ./content ./../content-backup -r
-sudo mv ./../content-backup/content ./../content-backup/content-latest
+sudo cp content ../content-backup -r
 echo "Successfully created a Ghost backup directory into ../content-backup"
 sudo npm install -g ghost-cli@latest
 echo "Installed latest Ghost-cli version"
 ghost update
 echo "The automatic script has finished. Server maintenance complete."
-sudo sleep 1s
 echo "Rebooting the box. Bye!"
-sudo sleep 3s
 sudo reboot
