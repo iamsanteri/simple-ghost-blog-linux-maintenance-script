@@ -20,7 +20,8 @@ You can insert the script with a following command: "scp your-local-directory/ma
 
 ### How to maintain the server?
 
-1. Open terminal, connect to remote server with SSH
-2. Enter login password
-3. Run: bash bin/maintain-server
-4. Done, your server maintenance is complete.
+1. First of all back up from the frontend (Admin)
+2. Open terminal, connect to remote server with SSH
+3. Enter login password
+4. Run: bash bin/maintain-server
+5. Done, your server maintenance is complete.
