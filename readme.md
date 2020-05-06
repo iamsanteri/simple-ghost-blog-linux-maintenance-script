@@ -23,5 +23,5 @@ You can insert the script with a following command: "scp your-local-directory/ma
 1. First of all back up from the frontend (Admin)
 2. Open terminal, connect to remote server with SSH
 3. Enter login password
-4. Run: sudo bash bin/maintain-server
+4. Run: bash bin/maintain-server
 5. Done, your server maintenance is complete.
